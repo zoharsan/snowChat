@@ -16,7 +16,7 @@ class Secrets(BaseModel):
 
 
 class Config(BaseModel):
-    chunk_size: int = 1000
+    chunk_size: int = 2000
     chunk_overlap: int = 0
     docs_dir: str = "docs/"
     docs_glob: str = "**/*.md"
